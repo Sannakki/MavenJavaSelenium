@@ -13,6 +13,10 @@ public class textBox {
 	 ChromeDriver driver = new ChromeDriver();
 	 driver.get("https://www.facebook.com/");
 	 
+	 
+	 button btn=new button();
+	 btn.clickButton();
+	 
 	 /*
 	  * locators
 	  * 1. tagname
@@ -58,7 +62,7 @@ public class textBox {
 	 //driver.findElement(By.xpath("//a[text()='Forgotten password?']")).click();
 	 //driver.findElement(By.xpath("//a[.='Forgotten password?']")).click();
 	 //syntax xpath for contains function - //tagname[contains(@attribute name, 'attribute value')]
-	 driver.findElement(By.xpath("//a[contains(.,'Forgotten password')]")).click();
+	 //driver.findElement(By.xpath("//a[contains(.,'Forgotten password')]")).click();
 	 
 	 driver.quit();
 		
